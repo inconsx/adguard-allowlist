@@ -1,0 +1,23 @@
+! Microsoft 365
+@@||office.com^
+@@||office.net^
+@@||microsoft.com^
+@@||microsoftonline.com^
+@@||live.com^
+@@||sharepoint.com^
+! Amazon / Fire TV
+@@||amazon.com^
+@@||amazon.de^
+@@||amazonvideo.com^
+@@||media-amazon.com^
+@@||ssl-images-amazon.com^
+! Samsung (Smart TV, Handy)
+@@||samsung.com^
+@@||samsungcloud.com^
+@@||samsungapps.com^
+@@||samsungcloudsolution.com^
+@@||samsungosp.com^
+! bild.de
+@@||bild.de^
+@@||bildstatic.de^
+@@||asadcdn.com^
