@@ -1,23 +1,82 @@
-! Microsoft 365
-@@||office.com^
-@@||office.net^
-@@||microsoft.com^
-@@||microsoftonline.com^
-@@||live.com^
-@@||sharepoint.com^
-! Amazon / Fire TV
+! Title: Syrinx Allowlist
+! Description: Freigaben für AdGuard Home (Erlaubt-Liste).
+!   Quelle: github.com/inconsx/adguard-allowlist
+! Syntax: @@||domain^ = Domain inkl. aller Subdomains immer erlauben.
+! Telemetrie (z. B. events.data.microsoft.com, device-metrics-*.amazon.com)
+! ist bewusst NICHT freigegeben.
+
+! ---------------------------------------------------------------- Amazon / Fire TV / Prime Video / Alexa
 @@||amazon.com^
 @@||amazon.de^
+@@||amazon.co.uk^
+@@||amazonaws.com^
 @@||amazonvideo.com^
+@@||primevideo.com^
+@@||aiv-cdn.net^
+@@||aiv-delivery.net^
 @@||media-amazon.com^
 @@||ssl-images-amazon.com^
-! Samsung (Smart TV, Handy)
+@@||images-amazon.com^
+@@||cloudfront.net^
+@@||amazonalexa.com^
+@@||alexa.com^
+@@||a2z.com^
+@@||amcs-tachyon.com^
+
+! ---------------------------------------------------------------- Microsoft 365 (Outlook, Teams, OneDrive, SharePoint, Office)
+@@||microsoft.com^
+@@||microsoftonline.com^
+@@||microsoftonline-p.com^
+@@||msauth.net^
+@@||msftauth.net^
+@@||msauthimages.net^
+@@||msftauthimages.net^
+@@||office.com^
+@@||office.net^
+@@||office365.com^
+@@||outlook.com^
+@@||live.com^
+@@||live.net^
+@@||sharepoint.com^
+@@||onedrive.com^
+@@||1drv.com^
+@@||1drv.ms^
+@@||teams.microsoft.com^
+@@||skype.com^
+@@||lync.com^
+@@||windows.net^
+@@||azureedge.net^
+@@||azurefd.net^
+@@||msecnd.net^
+@@||aka.ms^
+
+! ---------------------------------------------------------------- Samsung (Smart TV, Handy, SmartThings)
 @@||samsung.com^
 @@||samsungcloud.com^
-@@||samsungapps.com^
 @@||samsungcloudsolution.com^
+@@||samsungcloudsolution.net^
+@@||samsungapps.com^
 @@||samsungosp.com^
-! bild.de
+@@||samsungotn.net^
+@@||samsungqbe.com^
+@@||samsungrm.net^
+@@||samsungelectronics.com^
+@@||smartthings.com^
+@@||pavv.co.kr^
+
+! ---------------------------------------------------------------- bild.de (inkl. eigener Werbeauslieferung, sonst Adblock-Sperre)
 @@||bild.de^
 @@||bildstatic.de^
 @@||asadcdn.com^
+@@||welt.de^
+
+! ---------------------------------------------------------------- Smart Home (Home Assistant und angebundene Dienste)
+@@||home-assistant.io^
+@@||nabucasa.com^
+@@||duckdns.org^
+@@||sonos.com^
+@@||ring.com^
+@@||home-connect.com^
+@@||somfy.com^
+@@||overkiz.com^
+@@||met.no^
